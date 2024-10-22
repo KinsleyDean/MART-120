@@ -1,0 +1,89 @@
+<html>
+  <body>
+    <head><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/b">
+      <script> 
+      function checkboxes()
+      {
+       var fName=document.getElementById("fName").value;
+       var lName=document.getElementById("lName").value;
+       var email=document.getElementById("email").value;
+       if(fName=="") 
+       {
+       document.getElementById("fName").style.backgroundColor="red"
+       document.getElementById("fName").focus();
+       }
+       else
+       {
+        document.getElementById("fName").style.backgroundColor="white"
+       }
+       
+       if(lName=="")
+       {
+        document.getElementById("lName").style.backgroundColor="red"
+        document.getElementById("lName").focus();
+       }
+       else
+       {
+        document.getElementById("lName").style.backgroundColor="white"
+       }
+       if(email=="")
+       {
+        document.getElementById("email").style.backgroundColor="red"
+        document.getElementById("email").focus();
+       }
+       else
+       {
+        document.getElementById("email").style.backgroundColor="white"
+       }
+      if(!document.getElementById("YES").checked)
+      {
+        document.getElementById("message").innerHTML="Please accept Terms of Agreement"
+      }
+      else{
+        document.getElementById("message").innerHTML=""
+      }
+      }
+
+      </script>
+    </head> </span></head>
+
+    <form>
+      First Name: <input type="text" id="fName"><br>
+      Last Name: <input type="text" id="lName"><br>
+      Email Adress: <input type="text" id="email"><br>
+
+      I Have Read And Accept The Terms of Agreement?
+  <input type="checkbox" name="Yes" value="Yes" id="YES">Yes
+  <input type="checkbox" name="No" value="No" id="NO">No<span id="message" style="color:red"> </span><br>
+      <button id="mySubmit" onclick="checkboxes();" type="button">Submit</button>
+  </form>
+ 
+  <br />
+        <br />
+        <a href="My Website.html"> Main Page</a>
+        <br />
+        <a href="Page2.html">My Art</a>
+  </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+  </style>
+</head>
+<body>
+<p class="p1"></p>
+</body>
+</html>
