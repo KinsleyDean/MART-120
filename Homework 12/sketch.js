@@ -61,10 +61,8 @@ function draw() {
     characterMovement();
 
     // Draw circle at mouse click
-    if (mousex && mousey) {
-        fill(50, 200, 100);
         circle(mousex, mousey, 30);
-    }
+    
 }
 
 function walls() {
